@@ -205,11 +205,20 @@ The proposed models can be integrated into
 If you use this repository in your research, please cite our work.
 
 ```bibtex
-@article{AutoNext2026,
-  title     = {AutoNext: Multilingual Character and Word Prediction using Optimised Recurrent Language Models and Context-Aware Statistical Models},
-  author    = {},
-  journal   = {},
-  year      = {2026}
+@article{10.1145/3822405,
+author = {Somkuwar, Tanmay and Meena, Yogesh},
+title = {Autonext: Optimised Recurrent and Context-Aware Statistical Models for Predictive Text Input in Low-Resource Indic Languages},
+year = {2026},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {2375-4699},
+url = {https://doi.org/10.1145/3822405},
+doi = {10.1145/3822405},
+abstract = {Text entry systems allow users to input information and interact with digital environments, with predictive input technologies further enhancing efficiency by anticipating user intent and offering real-time suggestions for words or letters. To date, the use of predictive approaches for letters and words in low-resource languages is still limited. This work proposes a set of deep learning-based optimised recurrent language models (ORLMs), along with statistical context-aware smoothed entropy-based prediction by partial matching methods (CASE-based PPM) for next-letter and next-word prediction. We evaluated these RNN-based deep learning models and PPM-based statistical methods in real time using various input sentences in six languages: English, Hindi, Marathi, Gujarati, Punjabi, and Kannada. We conducted four experiments to assess these approaches across multiple standard and practical performance metrics, with a comparative analysis aimed at real-world deployment in predictive applications. The total percentage of correct characters or letters achieved for CASE-based PPM-5 and PPM-6 was 90.63 ± 3.33\%, 92.85 ± 4.93\%, respectively, across all languages. The optimised deep learning models, using long short-term memory and gated recurrent unit techniques, showed better suitability for word prediction applications, achieving accuracies of 93.63 ± 2.15\% and 94.01 ± 2.08\%, keystroke savings of 51.59 ± 16.69\% and 50.25 ± 14.95\%, and hit rates of 62.75 ± 27.41\% and 60.575 ± 25.38\%, respectively, across all six languages. These results demonstrate the effectiveness of the proposed approaches, which consistently outperform state-of-the-art predictive methods across various performance metrics and hold significant potential for developing text entry applications in low-resource languages.},
+note = {Just Accepted},
+journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},
+month = jul,
+keywords = {Recurrent Neural Networks, Prediction by Partial Matching, Next Word Prediction, Next Letter Prediction, Text Input, Text Entry Interfaces, Low-Resource Indic Languages}
 }
 ```
 
@@ -218,6 +227,3 @@ If you use this repository in your research, please cite our work.
 # Contact
 
 For questions or collaborations, please contact the HAIx Lab.
-
-
-
