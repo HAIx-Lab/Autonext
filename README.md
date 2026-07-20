@@ -48,15 +48,20 @@ The repository accompanies our research on multilingual predictive text entry sy
 AutoNext/
 │
 ├── CharacterPrediction/
-│   ├── LSTM/
-│   ├── BiLSTM/
-│   ├── GRU/
-│   └── CASEBasedPPM/
+│   ├── CharEnglishPrediction.py
+│   ├── CharHindiPrediction.py
+│   ├── CharGujaratiPrediction.py
+│   ├── CharKannadaPrediction.py
+│   ├── CharMarathiPrediction.py
+│   └── CharPunjabiPrediction.py
 │
 ├── WordPrediction/
-│   ├── LSTM/
-│   ├── BiLSTM/
-│   └── GRU/
+│   ├── WordEnglishPrediction.py
+│   ├── WordHindiPrediction.py
+│   ├── WordGujaratiPrediction.py
+│   ├── WordKannadaPrediction.py
+│   ├── WordMarathiPrediction.py
+│   └── WordPunjabiPrediction.py
 │
 ├── data/
 │   ├── english.txt
@@ -68,7 +73,6 @@ AutoNext/
 │
 └── README.md
 ```
-
 
 # Datasets
 
