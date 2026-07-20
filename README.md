@@ -66,8 +66,6 @@ AutoNext/
 │   ├── marathi.txt
 │   └── punjabi.txt
 │
-├── Results/
-│
 └── README.md
 ```
 
