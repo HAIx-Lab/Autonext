@@ -58,17 +58,15 @@ AutoNext/
 │   ├── BiLSTM/
 │   └── GRU/
 │
-├── Dataset/
-│   ├── English/
-│   ├── Hindi/
-│   ├── Gujarati/
-│   ├── Kannada/
-│   ├── Marathi/
-│   └── Punjabi/
+├── data/
+│   ├── english.txt
+│   ├── hindi.txt
+│   ├── gujarati.txt
+│   ├── kannada.txt
+│   ├── marathi.txt
+│   └── punjabi.txt
 │
 ├── Results/
-│
-├── requirements.txt
 │
 └── README.md
 ```
